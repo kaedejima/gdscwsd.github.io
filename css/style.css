@@ -2,6 +2,7 @@
 
 @import "navbar.css";
 @import "footer.css";
+@import url("common.css");
 
 *{
   margin: 0;
@@ -19,25 +20,4 @@ h1{
   font-family: 'Outfit';
   font-weight: 400;
   font-size: 3rem;
-}
-
-.contents{
-  margin-top: 50px;
-}
-section{
-}
-.hero_area{
-  height: 400px;
-  display: flex;
-  background-color: gainsboro;
-}
-.hero_area_contents{
-  width: 900px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.page_top{
-  text-align: center;
 }
